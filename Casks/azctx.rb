@@ -6,25 +6,25 @@ cask "azctx" do
     end
   end
 
-  version "1.7.2"
+  version "1.7.3"
 
   on_macos do
     on_arm do
-      sha256 "d4f1ac26c648df089d2e888550f98ce7e71128a291a50ecbf169ecff8abfe471"
+      sha256 "a09f6901cc43362f893097174cbc8e6ebe4a1172c8b33e2cf635c198174cc239"
       url "https://github.com/iul1an/azctx/releases/download/v#{version}/azctx_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "8f9d8b8070195355652d1aae7aeab70154df9c8cbbe4775c2528b04d20b3741a"
+      sha256 "04c8a3cd84c5e85d844646a2e91a270020ff0bd421693fa3119e4e42122884d1"
       url "https://github.com/iul1an/azctx/releases/download/v#{version}/azctx_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "0669a8de4edeab7ea018aa248dca01f1d0bf2f9314c9520f394b56b1e8891c7e"
+      sha256 "30657cab849d366b0cb4526fbef2f67774e09cea7e9b61efc9d283bd534c0860"
       url "https://github.com/iul1an/azctx/releases/download/v#{version}/azctx_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f0989e79d10bc8e95966193e600cd13c519276edd064b87ff5239c53f84723a1"
+      sha256 "6dfd058b30cda9b3587c5bf6ed0d5e16e94ea359d52651461c6b834f62733cde"
       url "https://github.com/iul1an/azctx/releases/download/v#{version}/azctx_#{version}_linux_amd64.tar.gz"
     end
   end
